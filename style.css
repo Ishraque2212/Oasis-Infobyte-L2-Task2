@@ -1,0 +1,238 @@
+body {
+    background-color: #221e1e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#efecto {
+    background-image: url('https://cdn.dnaindia.com/sites/default/files/styles/full/public/2020/12/23/945033-ms-dhoni-1-afp.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+
+.ms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #120d0d;
+}
+
+.dhoni {
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 50px;
+    padding-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 14px;
+    color: #7F8C8D;
+}
+
+#img-caption {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #7F8C8D;
+}
+
+.quotes {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    height: 100vh;
+    width: 100vw;
+}
+
+.seccion {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#tribute-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#tribute-link:hover {
+    text-decoration: underline;
+}
+
+
+#contenido {
+    /* height: 100vh;
+    width: 100vw; */
+    /* background-color: #221e1e; */
+}
+
+.container {
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+    margin-top: 940px;
+    background-color: #b40b0b;
+}
+
+.seccion {
+    font-size: 3rem;
+    text-align: center;
+    color: #fbffe7;
+}
+.p-box{
+    border: 2px solid black;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+}
+.p-box:hover{
+    padding: 25px;
+    margin: 25px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img {
+    margin: 10px;
+    border-radius: 30px;
+}
+.img:hover{
+    box-shadow: 0px 0px 10px #f2f2f2;
+}
+
+img {
+    display: block;
+    width: 40vw;
+    height: 40vh;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.row br {
+    line-height: 40px;
+}
+
+
+
+#quotes {
+    border: 2px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #f2f2f2;
+}
+
+#quotes h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#quotes i {
+    color: #999;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+#contenidoCita p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+footer h1 span {
+    font-size: 50px;
+}
+
+footer h5 {
+    margin: 0;
+    font-size: 12px;
+}
+
+footer p {
+    text-align: right;
+}
+#ish {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 900;
+}
+#ish:hover{
+    font-size: large;
+}
+
+
+.social-icons a{
+    padding: 50px;
+    font-size: 30px;
+}
+.social-icons a:hover{
+    font-size: 35px;
+}
+
+.fa-facebook {  
+    color: #3B5998;  
+    /* color: white;   */
+  }  
+  .fa-twitter {  
+    color: #55ACEE;  
+    /* color: white;   */
+  }  
+  .fa-instagram {  
+    color: #f1002c;  
+    /* color: white;   */
+  }  
